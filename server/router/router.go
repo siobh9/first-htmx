@@ -1,10 +1,10 @@
 package router
 
 import (
-	"go-htmx-template/db"
-	"go-htmx-template/dist"
-	"go-htmx-template/server/handler"
-	"go-htmx-template/server/middleware"
+	"github.com/siobh9/first-htmx/db"
+	"github.com/siobh9/first-htmx/dist"
+	"github.com/siobh9/first-htmx/server/handler"
+	"github.com/siobh9/first-htmx/server/middleware"
 	"log/slog"
 	"net/http"
 )

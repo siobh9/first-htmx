@@ -2,10 +2,10 @@ package main
 
 import (
 	"errors"
-	"go-htmx-template/db"
-	"go-htmx-template/log"
-	"go-htmx-template/server"
-	"go-htmx-template/server/router"
+	"github.com/siobh9/first-htmx/db"
+	"github.com/siobh9/first-htmx/log"
+	"github.com/siobh9/first-htmx/server"
+	"github.com/siobh9/first-htmx/server/router"
 	"os"
 
 	"github.com/golang-migrate/migrate/v4"

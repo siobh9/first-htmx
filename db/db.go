@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"embed"
 	"fmt"
-	"go-htmx-template/db/queries"
+	"github.com/siobh9/first-htmx/db/queries"
 	"log/slog"
 
 	"github.com/golang-migrate/migrate/v4"

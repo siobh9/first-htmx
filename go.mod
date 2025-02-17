@@ -1,4 +1,4 @@
-module go-htmx-template
+module github.com/siobh9/first-htmx
 
 go 1.24.0
 

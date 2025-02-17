@@ -2,7 +2,7 @@ package db
 
 import (
 	"database/sql"
-	"go-htmx-template/db/queries"
+	"github.com/siobh9/first-htmx/db/queries"
 	"log/slog"
 
 	_ "github.com/tursodatabase/libsql-client-go/libsql"

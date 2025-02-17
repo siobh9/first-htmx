@@ -71,7 +71,7 @@ jobs:
       - uses: docker/metadata-action@v5
         id: meta
         with:
-          images: ghcr.io/piszmog/go-htmx-template
+          images: ghcr.io/piszmog/github.com/siobh9/first-htmx
       - uses: docker/build-push-action@v5
         with:
           push: true

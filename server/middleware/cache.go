@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"go-htmx-template/version"
+	"github.com/siobh9/first-htmx/version"
 	"net/http"
 )
 

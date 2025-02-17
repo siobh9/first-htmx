@@ -7,4 +7,4 @@ fi
 
 new_module=$1
 
-find . -type d -name .git -prune -o -type f -exec sed -i '' -e "s|go-htmx-template|${new_module}|g" {} \;
+find . -type d -name .git -prune -o -type f -exec sed -i '' -e "s|github.com/siobh9/first-htmx|${new_module}|g" {} \;
